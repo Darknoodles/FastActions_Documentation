@@ -6,17 +6,8 @@
                  name="FastActions Help"
                  start-page="OperatorReference.topic">
 
-    <toc-element topic="Reference.md" hidden="true"/>
-    <toc-element topic="Section-Starting-Page.topic" hidden="true"/>
-    <toc-element topic="Starter.md" hidden="true"/>
-    <toc-element topic="How-to.md" hidden="true"/>
-    <toc-element topic="How-to-topic.topic" hidden="true"/>
     <toc-element topic="OperatorReference.topic">
         <toc-element topic="ObjectMode.topic"/>
         <toc-element topic="MeshEditMode.topic"/>
     </toc-element>
-    <toc-element topic="Overview.md" hidden="true"/>
-    <toc-element topic="Tutorial.topic" hidden="true"/>
-    <toc-element topic="Tutorial-md.md" hidden="true"/>
-    <toc-element topic="starter-topic.md" hidden="true"/>
 </instance-profile>
