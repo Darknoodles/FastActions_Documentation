@@ -60,6 +60,104 @@
                         Selects objects with 'Object Color' close to the chosen color
                     </def>
                 </deflist>
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td>Icon</td>
+                        <td>Description</td>
+                        <td width="35%">Panel</td>
+                    </tr>
+                    <tr>
+                        <td>Multiusers</td>
+                        <td><img src="circle_distribute.png" alt="Multiuser icon"/></td>
+                        <td>
+                            Selects objects which the data block has a certain amount of users.
+                        </td>
+                        <td><img src="panel_multiuser.png" alt=""/></td>
+                    </tr>
+                    <tr>
+                        <td>One of...</td>
+                        <td><img src="COMMUNITY.png" alt=""/> </td>
+                        <td>
+                            Selects amongst the objects, one of each having several data users.
+                        </td>
+                        <td><img src="panel_oneOf.png" alt=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Empty of shape</td>
+                        <td> <img src="CUBE.png" alt=""/></td>
+                        <td>
+                            Selects empties with the same shapes as the selected ones.
+                        </td>
+                        <td><img src="panel_emptyOfShape.png" alt=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Lone Object</td>
+                        <td> <img src="ORPHAN_DATA.png" alt=""/></td>
+                        <td>
+                            Selects objects that have no parent and children.
+                        </td>
+                        <td><img src="panel_loneObject.png" alt=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Non-Uniform Scale</td>
+                        <td> <img src="OBJECT_ORIGIN.png" alt=""/></td>
+                        <td>
+                            Selects objects where the scale is not uniform. Meaning that X, Y and Z scale are not the same.
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>Unapplied Scale</td>
+                        <td> <img src="OBJECT_ORIGIN.png" alt=""/></td>
+                        <td>
+                            Selects objects where the scale differs from 1,1,1
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>Volume</td>
+                        <td> <img src="CON_SAMEVOL.png" alt=""/></td>
+                        <td>
+                            <p>Selects objects which volume is near the Volume specified in the Operator's options.
+                                <emphasis>Threshold is adjustable.</emphasis></p>
+                        </td>
+                        <td><img src="panel_volume.png" alt=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Similar Volume</td>
+                        <td><img src="CON_SAMEVOL.png" alt=""/> </td>
+                        <td>
+                            Selects objects which volume is near the Volume of the active Object.
+                        </td>
+                        <td><img src="panel_similarVolume.png" alt=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Material Count</td>
+                        <td><img src="MATERIAL_DATA.png" alt=""/> </td>
+                        <td>
+                            Selects objects with a specified amount of materials.
+                        </td>
+                        <td><img src="panel_materialCount.png" alt=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Material Transparency</td>
+                        <td><img src="MATERIAL_DATA.png" alt=""/> </td>
+                        <td>
+                            Selects objects containing materials with the specified Transparency Mode.
+                        </td>
+                        <td><img src="panel_materialTransparency.png" alt=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Object Color</td>
+                        <td><img src="MATERIAL_DATA.png" alt=""/> </td>
+                        <td>
+                            Selects objects with 'Object Color' close to the chosen color
+                        </td>
+                        <td><img src="panel_selectColor.png" alt=""/></td>
+                    </tr>
+
+                </table>
             </chapter>
 
             <chapter title="Select By Relations" collapsible="true">
