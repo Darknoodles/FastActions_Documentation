@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Operator Reference" id="OperatorReference">
+    <include from="Library.topic" element-id="generic_warning"/>
+
+    <tip>
+        In this section you will find a list of the operators and tools added by FastActions
+    </tip>
+
+    <chapter title="Object Mode" id="objectmode">
+        <procedure title="Categories">
+            <step><a href="ObjectMode.topic#Selections">Selections</a></step>
+            <step><a href="ObjectMode.topic#Relations">Relations</a></step>
+            <step><a href="ObjectMode.topic#Transforms">Transforms</a></step>
+            <step><a href="ObjectMode.topic#Misc">Misc</a></step>
+        </procedure>
+    </chapter>
+    <code-block lang="plantUML">
+        @startmindmap
+        * Object Mode
+            * Selection
+                * Selection Slots
+                * Select By Traits
+                * Select By Relations
+            * Transforms
+        @endmindmap
+    </code-block>
+</topic>

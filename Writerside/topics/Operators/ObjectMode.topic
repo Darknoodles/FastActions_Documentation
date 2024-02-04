@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Object Mode" id="ObjectMode">
+    <show-structure for="chapter,procedure" depth="2"/>
+    <p>
+        %product% delivers a bunch of functionalities while in object mode.
+        On this page you will be given a description of them and how to use them.
+        Default Shortcut is <shortcut>%obj_def_key%</shortcut> to open the <control>Object Pie</control>
+    </p>
+
+    <chapter title="Pie Menu">
+
+        <chapter title="Selections" id="Selections">
+            <note>Except for a few operators, selections can be applied to several objects.
+            As an example Blender's default "Select Children" only select children of the active objects.
+            %product% version select children of each selected objects.</note>
+
+            <chapter title="Selection Slots" collapsible="true">
+                <p>Allows to save your objects selections to up to five different slots, and load these selections later.</p>
+                <warning>Currently, selection is not persistent ! If you restart Blender or reload the file, Selection Slots will be cleared</warning>
+            </chapter>
+
+            <chapter title="Select By Traits" collapsible="true">
+                <deflist type="medium">
+                    <def title="Multiuser">
+                        Selects objects which the data block has a certain amount of users.
+                    </def>
+                    <def title="One Of">
+                        Selects amongst the objects, one of each having several data users.
+                    </def>
+                    <def title="Empty Of Shape">
+                        Selects empties with the same shapes as the selected ones.
+                    </def>
+                    <def title="Lone Object">
+                        Selects objects that have no parent and children.
+                    </def>
+                    <def title="Non-Uniform Scale">
+                        Selects objects where the scale is not uniform. Meaning that X, Y and Z scale are not the same.
+                    </def>
+                    <def title="Unapplied Scale">
+                        Selects objects where the scale differs from 1,1,1
+                    </def>
+                    <def title="Volume">
+                        <p>Selects objects which volume is near the Volume specified in the Operator's options.
+                            <emphasis>Threshold is adjustable.</emphasis></p>
+                    </def>
+                    <def title="Similar Volume">
+                        Selects objects which volume is near the Volume of the active Object.
+                    </def>
+                    <def title="Material Count">
+                        Selects objects with a specified amount of materials.
+                    </def>
+                    <def title="Material Transparency">
+                        Selects objects containing materials with the specified Transparency Mode.
+                    </def>
+                    <def title="Object Color">
+                        Selects objects with 'Object Color' close to the chosen color
+                    </def>
+                </deflist>
+            </chapter>
+
+            <chapter title="Select By Relations" collapsible="true">
+
+            </chapter>
+        </chapter>
+
+        <chapter title="Relations" id="Relations">
+            <chapter title="Relations" collapsible="true">
+                <deflist type="medium">
+                    <def title="Delete Reparent">
+                        Deletes the selected objects and reparents their children to their parents.
+                    </def>
+                    <def title="Bypass Reparent">
+                        Unparents the selected objects and reparents their children to their parents.
+                    </def>
+                </deflist>
+            </chapter>
+        </chapter>
+
+        <chapter title="Transforms and Data" id="Transforms">
+
+        </chapter>
+
+        <chapter title="Misc" id="Misc">
+            <chapter title="Miscellaneous" collapsible="true">
+
+            </chapter>
+            <chapter title="Naming" collapsible="true">
+
+            </chapter>
+            <chapter title="Materials" collapsible="true">
+
+            </chapter>
+        </chapter>
+
+    </chapter>
+
+    <chapter title="Tools">
+        <deflist type="medium">
+            <def title="Parent Tool">
+                <p>Parents in a chain fashion object under the cursor.</p>
+                <p>When the tool is active, it parents the currently selected objects
+                    to the object under the cursor when <shortcut>P</shortcut> is pressed.
+                    This object then become the active selected object, and allows to immediatly parent
+                    it to the next object.
+                </p>
+                <p>If <shortcut>U</shortcut> is pressed when an object is hovered, it will be unparented.</p>
+
+            </def>
+        </deflist>
+
+    </chapter>
+
+</topic>

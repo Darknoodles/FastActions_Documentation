@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vars SYSTEM "https://resources.jetbrains.com/writerside/1.0/vars.dtd">
+<vars>
+    <var name="product" value="FastActions"/>
+    <var name="current_version" value="2024.01.10"/>
+    <var name="obj_def_key" value="F6"/>
+    <var name="mesh_def_key" value="F6"/>
+</vars>

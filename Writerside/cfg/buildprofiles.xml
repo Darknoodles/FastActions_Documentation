@@ -1,0 +1,18 @@
+<buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
+    <variables>
+        <primary-color>forest</primary-color>
+        <custom-favicons>FastActionsLogo200.png</custom-favicons>
+        <header-logo>FastActionsLogo200.png</header-logo>
+        <product-web-url>https://help.example.com</product-web-url>
+        <download-title>Get Awesome App</download-title>
+        <download-page>https://example.com</download-page>
+        <showDownloadButton>true</showDownloadButton>
+        <color-preset>contrast</color-preset>
+    </variables>
+
+    <footer>
+        <link href="https://blog.jetbrains.com">Blog</link>
+        <link href="https://slack.jetbrains.com">Slack community</link>
+    </footer>
+</buildprofiles>
