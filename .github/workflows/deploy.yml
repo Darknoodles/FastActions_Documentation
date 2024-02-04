@@ -52,7 +52,7 @@ path: artifacts/${{ env.ALGOLIA_ARTIFACT }}
 retention-days: 7
 
 # Add the job below and artifacts/report.json on Upload documentation step above if you want to fail the
-build when documentation contains errors
+# build when documentation contains errors
 test:
 # Requires build job results
 needs: build
