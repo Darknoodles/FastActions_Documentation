@@ -9,5 +9,19 @@
         <warning>This version support ended on January 14, 2022.
             Download the latest version.</warning>
     </snippet>
+    
+    <snippet id="operator_params">
 
+
+    </snippet>
+
+    <snippet id="operator_select_base">
+        <def title="Extend Current Selection">Adds to the current selection</def>
+        <def title="Action">Selects or deselects the result of the operation</def>
+        <def title="Source">Picks from current selection or visible object</def>
+    </snippet>
+
+    <snippet id="compare_property">
+        <def title="Compare">Greater, Greater or equal, Equel, Less, Less or Equal, Different</def>
+    </snippet>
 </topic>

@@ -18,48 +18,49 @@
             As an example Blender's default "Select Children" only select children of the active objects.
             %product% version select children of each selected objects.</note>
 
+            <deflist >
+                <def title="Recurrences">
+                    <p>Selection operators shares some base principle:</p>
+                    <table>
+                        <tr>
+                            <td>Type</td>
+                            <td>Description</td>
+                            <td width="35%">Panel</td>
+                        </tr>
+                        <tr>
+                            <td>Base</td>
+                            <td>
+                                <p><control>Extend</control>: Appends to the current selection</p>
+                                <p><control>Action</control>: Selects or deselects the result of the operation</p>
+                                <p><control>Source</control>: Picks from current selection or visible objects</p>
+                            </td>
+                            <td>
+                                <img src="panel_multiuser.png" alt=""/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Comparison</td>
+                            <td>
+                                <p><control>Type</control>: Appends to the current selection</p>
+                                <p><control>Number</control>: Selects or deselects the result of the operation</p>
+                            </td>
+                            <td>
+                                <img src="panel_multiuser.png" alt=""/>
+                            </td>
+                        </tr>
+                    </table>
+                </def>
+
+            </deflist>
+
             <chapter title="Selection Slots" collapsible="true">
                 <p>Allows to save your objects selections to up to five different slots, and load these selections later.</p>
                 <warning>Currently, selection is not persistent ! If you restart Blender or reload the file, Selection Slots will be cleared</warning>
+
+                <img src="menu_selectionSlots.png" alt=""/>
             </chapter>
 
             <chapter title="Select By Traits" collapsible="true">
-                <deflist type="medium">
-                    <def title="Multiuser">
-                        Selects objects which the data block has a certain amount of users.
-                    </def>
-                    <def title="One Of">
-                        Selects amongst the objects, one of each having several data users.
-                    </def>
-                    <def title="Empty Of Shape">
-                        Selects empties with the same shapes as the selected ones.
-                    </def>
-                    <def title="Lone Object">
-                        Selects objects that have no parent and children.
-                    </def>
-                    <def title="Non-Uniform Scale">
-                        Selects objects where the scale is not uniform. Meaning that X, Y and Z scale are not the same.
-                    </def>
-                    <def title="Unapplied Scale">
-                        Selects objects where the scale differs from 1,1,1
-                    </def>
-                    <def title="Volume">
-                        <p>Selects objects which volume is near the Volume specified in the Operator's options.
-                            <emphasis>Threshold is adjustable.</emphasis></p>
-                    </def>
-                    <def title="Similar Volume">
-                        Selects objects which volume is near the Volume of the active Object.
-                    </def>
-                    <def title="Material Count">
-                        Selects objects with a specified amount of materials.
-                    </def>
-                    <def title="Material Transparency">
-                        Selects objects containing materials with the specified Transparency Mode.
-                    </def>
-                    <def title="Object Color">
-                        Selects objects with 'Object Color' close to the chosen color
-                    </def>
-                </deflist>
                 <table>
                     <tr>
                         <td>Name</td>
@@ -72,8 +73,13 @@
                         <td><img src="circle_distribute.png" alt="Multiuser icon"/></td>
                         <td>
                             Selects objects which the data block has a certain amount of users.
+                            <img src="panel_multiuser.png" alt=""/>
                         </td>
-                        <td><img src="panel_multiuser.png" alt=""/></td>
+                        <td>
+                            <deflist>
+                                <include from="Library.topic" element-id="operator_select_base"></include>
+                            </deflist>
+                        </td>
                     </tr>
                     <tr>
                         <td>One of...</td>
