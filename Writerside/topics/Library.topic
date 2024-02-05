@@ -24,4 +24,24 @@
     <snippet id="compare_property">
         <def title="Compare">Greater, Greater or equal, Equel, Less, Less or Equal, Different</def>
     </snippet>
+
+
+    <table id="operator_table">
+        <tr>
+            <td>Type</td>
+            <td>Description</td>
+            <td width="35%">Panel</td>
+        </tr>
+        <tr>
+            <td>Base</td>
+            <td>
+                <p><control>Extend</control>: Appends to the current selection</p>
+                <p><control>Action</control>: Selects or deselects the result of the operation</p>
+                <p><control>Source</control>: Picks from current selection or visible objects</p>
+            </td>
+            <td>
+                <img src="panel_selectBase.png" alt=""/>
+            </td>
+        </tr>
+    </table>
 </topic>

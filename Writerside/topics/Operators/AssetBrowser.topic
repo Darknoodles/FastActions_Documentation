@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Asset Browser" id="AssetBrowser" help-id="Asset-Browser">
+
+    <title instance="fh">Asset Browser</title>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Icon</td>
+            <td>Description</td>
+            <td width="35%">Panel</td>
+        </tr>
+        <tr>
+            <td>Copy Attribute</td>
+            <td>None</td>
+            <td>
+                Copies attributes such as {tags, description, author, license, copyright} from the active asset to other selected assets.
+            </td>
+            <td>
+                <img src="panel_multiuser.png" alt=""/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Clear Attributes</td>
+            <td>None</td>
+            <td>
+                Clears attributes such as {tags, description, author, license, copyright} from selected assets
+            </td>
+            <td>
+                <img src="panel_multiuser.png" alt=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>Load Previews</td>
+            <td>None</td>
+            <td>
+                Loads the previews for selected assets based on the asset names.
+            </td>
+            <td>
+                <img src="panel_multiuser.png" alt=""/>
+            </td>
+        </tr>
+    </table>
+</topic>
