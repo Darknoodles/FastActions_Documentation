@@ -12,11 +12,13 @@
     </p>
 
     <chapter title="Pie Menu">
-
+        <img src="objectPie.png" alt=""></img>
         <chapter title="Selections" id="Selections">
             <note>Except for a few operators, selections can be applied to several objects.
             As an example Blender's default "Select Children" only select children of the active objects.
             %product% version select children of each selected objects.</note>
+
+            <img src="objectPie_Selections.png" alt=""></img>
 
             <deflist >
                 <def title="Recurrences">
@@ -35,17 +37,26 @@
                                 <p><control>Source</control>: Picks from current selection or visible objects</p>
                             </td>
                             <td>
-                                <img src="panel_multiuser.png" alt=""/>
+                                <img src="panel_selectBase.png" alt=""/>
                             </td>
                         </tr>
                         <tr>
                             <td>Comparison</td>
                             <td>
-                                <p><control>Type</control>: Appends to the current selection</p>
-                                <p><control>Number</control>: Selects or deselects the result of the operation</p>
+                                <p><control>Type</control>: Comparison operation, Greater, GrEqual, Lesser, LesserEqual, Equal, NotEqual</p>
+                                <p><control>Number</control>: Number to compare with</p>
                             </td>
                             <td>
-                                <img src="panel_multiuser.png" alt=""/>
+                                <img src="panel_selectCompare.png" alt=""/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Threshold</td>
+                            <td>
+                                <p><control>Threshold/Tolerance</control>: Accuracy or tolerance for the comparison</p>
+                            </td>
+                            <td>
+                                <img src="panel_volume.png" alt=""/>
                             </td>
                         </tr>
                     </table>
@@ -70,15 +81,12 @@
                     </tr>
                     <tr>
                         <td>Multiusers</td>
-                        <td><img src="circle_distribute.png" alt="Multiuser icon"/></td>
+                        <td><img src="STICKY_UVS_LOC.png" alt="Multiuser icon"/></td>
                         <td>
                             Selects objects which the data block has a certain amount of users.
-                            <img src="panel_multiuser.png" alt=""/>
                         </td>
                         <td>
-                            <deflist>
-                                <include from="Library.topic" element-id="operator_select_base"></include>
-                            </deflist>
+                            <img src="panel_multiuser.png" alt=""/>
                         </td>
                     </tr>
                     <tr>
@@ -111,7 +119,9 @@
                         <td>
                             Selects objects where the scale is not uniform. Meaning that X, Y and Z scale are not the same.
                         </td>
-
+                        <td>
+                            <img src="panel_nonuniformScale.png" alt=""/>
+                        </td>
                     </tr>
                     <tr>
                         <td>Unapplied Scale</td>
@@ -119,7 +129,9 @@
                         <td>
                             Selects objects where the scale differs from 1,1,1
                         </td>
-
+                        <td>
+                            <img src="panel_unappliedScale.png" alt=""/>
+                        </td>
                     </tr>
                     <tr>
                         <td>Volume</td>
@@ -172,6 +184,8 @@
         </chapter>
 
         <chapter title="Relations" id="Relations">
+            <img src="objectPie_relations.png" alt=""></img>
+
             <chapter title="Relations" collapsible="true">
                 <deflist type="medium">
                     <def title="Delete Reparent">
