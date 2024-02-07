@@ -35,7 +35,7 @@
             </td>
         </tr>
         <tr>
-            <td>Load Previews</td>
+            <td><a anchor="operator_load_previews">Load Previews</a></td>
             <td>None</td>
             <td>
                 Loads the previews for selected assets based on the asset names.
@@ -46,7 +46,7 @@
         </tr>
     </table>
 
-    <chapter title="Load Previews">
+    <chapter title="Load Previews" id="operator_load_previews">
         <procedure title = "How To">
             <warning>To use this operator, you must be in the library Blend file.</warning>
             <step>
@@ -56,7 +56,7 @@
             <step>
                 <p>A file browser window will pop up. Browse to the location of the previews.</p>
                 <p>
-                    Select any of the preview file (name doesn't matter). This is to specify what file extension to use.
+                    Select any of the preview file with the desired extension (name doesn't matter). This is to specify what file extension to use.
                     It's useful if you have previews with several file extensions (let's say you have a .png and a .jpg version in the same folder).
                 </p>
             </step>
@@ -68,7 +68,8 @@
 
                 In that case, you can use the <b>prefix</b> and <b>suffix</b> field in the browser window to specify how the full name should looklike.
                 Here we will fill <b>prefix</b> with <b>thumbnail_</b> and <b>suffix</b> with <b>_512px</b>.
-            </p>
+            </p><img src="objectPie_transformData.png" preview-src="COMMUNITY.png" alt="" width="80"></img>
+
             <p>
                 Also, your asset name casing maybe different from the image name. For example, Suzanne for the asset and SUZANNE for the image.
                 You can use the <b>Ignore Case</b> property.
