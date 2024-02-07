@@ -45,4 +45,35 @@
             </td>
         </tr>
     </table>
+
+    <chapter title="Load Previews">
+        <procedure title = "How To">
+            <warning>To use this operator, you must be in the library Blend file.</warning>
+            <step>
+                <p>In the <ui-path>Asset Browser</ui-path>, select the assets you want to load the previews for,
+                    then use the operator in <ui-path>Topbar | %ab_topbar_menu% | Load Previews.</ui-path></p>
+            </step>
+            <step>
+                <p>A file browser window will pop up. Browse to the location of the previews.</p>
+                <p>
+                    Select any of the preview file (name doesn't matter). This is to specify what file extension to use.
+                    It's useful if you have previews with several file extensions (let's say you have a .png and a .jpg version in the same folder).
+                </p>
+            </step>
+            <step>Click the <ui-path>Load</ui-path> button.</step>
+            <p>The addon will now get all the previews in the folder that match the Asset Name, ending with the file extension you selected.</p>
+        <tip>
+            <p>Your preview files maybe have a different name than your assets.
+                For exemple your asset name is <format color="Crimson">Suzanne</format> but your preview is <format color="Crimson">thumbnail_Suzanne_512px.png</format>
+
+                In that case, you can use the <b>prefix</b> and <b>suffix</b> field in the browser window to specify how the full name should looklike.
+                Here we will fill <b>prefix</b> with <b>thumbnail_</b> and <b>suffix</b> with <b>_512px</b>.
+            </p>
+            <p>
+                Also, your asset name casing maybe different from the image name. For example, Suzanne for the asset and SUZANNE for the image.
+                You can use the <b>Ignore Case</b> property.
+            </p>
+        </tip>
+        </procedure>
+    </chapter>
 </topic>

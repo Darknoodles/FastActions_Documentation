@@ -25,7 +25,7 @@
         <def title="Compare">Greater, Greater or equal, Equel, Less, Less or Equal, Different</def>
     </snippet>
 
-
+    <p id="operator_property"><format color="DarkSlateBlue">ghghgh</format></p>
     <table id="operator_table">
         <tr>
             <td>Type</td>

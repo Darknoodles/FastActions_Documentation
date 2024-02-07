@@ -5,4 +5,5 @@
     <var name="current_version" value="2024.01.10"/>
     <var name="obj_def_key" value="F6"/>
     <var name="mesh_def_key" value="F6"/>
+    <var name="ab_topbar_menu" value="Assets"/>
 </vars>
