@@ -10,7 +10,9 @@
         <showDownloadButton>true</showDownloadButton>
         <color-preset>contrast</color-preset>
     </variables>
-
+    <shortcuts instance="">
+        <layout name="" display-name=""></layout>
+    </shortcuts>
     <footer>
         <link href="https://blog.jetbrains.com">Blog</link>
         <link href="https://slack.jetbrains.com">Slack community</link>

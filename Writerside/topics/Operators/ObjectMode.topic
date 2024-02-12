@@ -196,6 +196,33 @@
                     </def>
                 </deflist>
             </chapter>
+            <chapter title="Collections">
+                <procedure type="steps" title="Make Collection">
+
+                    <step>Select the objects you want to put in a collection</step>
+                    <step>Use the operator</step>
+                    <step>
+                        <p>Use the options to adjust the action you want to do.</p>
+                        <p>
+                            You can here choose whether you want the objects to be linked or move to the new collection.
+                        </p>
+                    </step>
+                </procedure>
+                <procedure type="steps" title="Batch Make Collection">
+                    <p>Here, the operator will add a collection for each selected objects, and include their children</p>
+
+                    <step>Use the operator</step>
+                    <step>
+                        <p>Use the options to adjust the action you want to do.</p>
+                        <p>
+                            You can here choose whether you want the objects to be linked or move to the new collection.
+                        </p>
+                    </step>
+                </procedure>
+            </chapter>
+            <chapter title="Separate">
+
+            </chapter>
         </chapter>
 
         <chapter title="Transforms and Data" id="Transforms">

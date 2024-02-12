@@ -62,19 +62,20 @@
             </step>
             <step>Click the <ui-path>Load</ui-path> button.</step>
             <p>The addon will now get all the previews in the folder that match the Asset Name, ending with the file extension you selected.</p>
-        <tip>
-            <p>Your preview files maybe have a different name than your assets.
-                For exemple your asset name is <format color="Crimson">Suzanne</format> but your preview is <format color="Crimson">thumbnail_Suzanne_512px.png</format>
+            <tip>
+                <p>Your preview files maybe have a different name than your assets.
+                    For exemple your asset name is <format color="Crimson">Suzanne</format> but your preview is
+                    <format color="Aquamarine">thumbnail_</format><format color="Crimson">Suzanne</format><format color="DarkOrange">_512px</format>.png
 
-                In that case, you can use the <b>prefix</b> and <b>suffix</b> field in the browser window to specify how the full name should looklike.
-                Here we will fill <b>prefix</b> with <b>thumbnail_</b> and <b>suffix</b> with <b>_512px</b>.
-            </p><img src="objectPie_transformData.png" preview-src="COMMUNITY.png" alt="" width="80"></img>
+                    In that case, you can use the <format color="Aquamarine" style="bold">prefix</format> and <format color="DarkOrange" style="bold">suffix</format> field in the browser window to specify how the full name should looklike.
+                    Here we will fill <b>prefix</b> with <b>thumbnail_</b> and <b>suffix</b> with <b>_512px</b>.
+                </p><img src="objectPie_transformData.png" alt=""></img>
 
-            <p>
-                Also, your asset name casing maybe different from the image name. For example, Suzanne for the asset and SUZANNE for the image.
-                You can use the <b>Ignore Case</b> property.
-            </p>
-        </tip>
+    <!--            <p>-->
+    <!--                Also, your asset name casing maybe different from the image name. For example, Suzanne for the asset and SUZANNE for the image.-->
+    <!--                You can use the <b>Ignore Case</b> property.-->
+    <!--            </p>-->
+            </tip>
         </procedure>
     </chapter>
 </topic>
